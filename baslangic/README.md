@@ -90,3 +90,6 @@ Hiçbir şey kırılmaz.
 - Strudel'in kendi öğreticisi: [strudel.cc/workshop/getting-started](https://strudel.cc/workshop/getting-started/)
 - Görsel eklemek isterseniz: [hydra.ojack.xyz](https://hydra.ojack.xyz)
 - Atölye materyallerimiz: [`../atolyeler/`](../atolyeler/)
+
+<!-- Buraya yeni örnek eklerken: tek bir kavram öğretsin, öncekinin üstüne binsin,
+     ve kopyalayıp çalıştırıldığında ilk denemede ses çıkarsın. -->
