@@ -87,3 +87,6 @@ atolyeler/2026-01-01-etkinlik-adi/
 - Kaç kişi katıldı
 - Uygulanan akış (yukarıdakinden farklıysa)
 - **Ne tuttu, ne tutmadı** — hangi bölüm uzun geldi, hangi soru tekrar tekrar geldi
+
+Son madde en değerlisi. Bir sonraki atölyeyi hazırlayan kişi — muhtemelen yine siz —
+bunu okuyacak.
