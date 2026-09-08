@@ -1,6 +1,6 @@
 # Algorave İzmir — Atölye
 
-Canlı kodlamayı Türkçe öğrenmek ve öğretmek için açık bir kaynak deposu.
+Canlı kodlama için Türkçe açık kaynak deposu.
 
 Algorave İzmir; canlı kodlama ve disiplinlerarası sanatı bir araya getirerek İzmir'de
 algoritma kültürü inşa eden bir topluluktur. Uluslararası [TOPLAP](https://toplap.org/) ağının üyesiyiz.
