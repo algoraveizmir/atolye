@@ -74,15 +74,33 @@ Kalan 2–3 dakikada bu deponun adresini gösterin: katılımcı evde
 
 ## Akış — 30 dakika
 
-Süre yarıya inerse **Hydra'yı tamamen çıkarın**, sadece Strudel yapın. İkisini birden
-yarım bırakmaktansa sese odaklanmak çok daha iyi sonuç veriyor.
+Süre yarıya inerse **ikisini birden sıkıştırmayın**; birini seçip tam yapın. Yarım kalmış
+iki bölüm, tamamlanmış bir bölümden çok daha kötü sonuç veriyor.
+
+Hangisini seçeceğiniz etkinliğe ve katılımcıya bağlı: müzik ağırlıklı bir etkinlikte ses,
+tasarım ve görsel sanat ağırlıklı bir yerde görsel daha çok karşılık buluyor. Emin
+değilseniz katılımcılara sorun, çoğunluk karar versin.
+
+### Seçenek 1 — Ses · Strudel
 
 | Süre | Bölüm |
 |---|---|
 | 5 dk | Giriş |
-| 8 dk | İlk ses |
-| 10 dk | Örüntü ve ritim |
+| 8 dk | İlk ses — `sound("bd")`, çalıştırma, `hush` |
+| 10 dk | Örüntü ve ritim — `stack`, `fast`, `euclid` |
 | 7 dk | Serbest — katılımcılar kendi parçasını kuruyor |
+
+### Seçenek 2 — Görsel · Hydra
+
+| Süre | Bölüm |
+|---|---|
+| 5 dk | Giriş |
+| 8 dk | İlk şekil — `osc()`, `noise()`, `shape()` |
+| 10 dk | Dönüştürme — `.rotate()`, `.kaleid()`, `.color()`, `.modulate()` |
+| 7 dk | Serbest — mikrofon açıksa görsel ortamdaki sese tepki veriyor |
+
+Görsel atölyesinde son bölüm için Strudel gerekmiyor: Hydra mikrofondan gelen sesi
+dinleyebiliyor. Ortamda müzik çalın, görseller ona göre oynasın.
 
 ---
 
