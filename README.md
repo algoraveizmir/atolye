@@ -12,13 +12,13 @@ algoritma kültürü inşa eden bir topluluktur. Uluslararası [TOPLAP](https://
 ## Neden bu depo var?
 
 Canlı kodlamanın neredeyse tüm öğretim materyali İngilizce. Türkçe bir başlangıç noktası
-yok; terimlerin Türkçesi henüz oturmadı.
+yok; terimlerin Türkçe karşılıkları da henüz oturmadı.
 
 Manifestomuzun beşinci maddesi:
 
-> **Biz bilgimizi paylaşırız.** Sakladığımız bilgi yoktur. Öğrendiğimizi kodla, notla,
-> atölyeyle geri veririz; bu alanın Türkçesini kurmak da bunun parçasıdır. Bir sonraki
-> sanatçıya kapıyı, bizden öncekilerin araladığı gibi aralarız.
+> **Biz bilgimizi paylaşırız.** Sakladığımız bilgi yoktur. Öğrendiğimizi kodla, notla ve
+> atölyeyle geri veririz; canlı kodlama için Türkçe kaynak oluşturmak da bunun bir
+> parçasıdır. Bir sonraki sanatçıya kapıyı, bizden öncekilerin araladığı gibi aralarız.
 
 Bu depo o cümlenin karşılığıdır.
 
@@ -96,14 +96,14 @@ live coding and interdisciplinary art. We are a member of the international
 ## Why this exists
 
 Almost all live coding teaching material is in English. There is no Turkish starting
-point, and the Turkish vocabulary for this field has not settled yet.
+point, and Turkish terminology for this field has not settled yet either.
 
 The fifth article of our manifesto:
 
 > **We share our knowledge.** We keep no knowledge to ourselves. What we learn we give
-> back — as code, as notes, as workshops; building a Turkish vocabulary for this field is
-> part of that. We hold the door open for the next artist, just as those before us held it
-> open for us.
+> back — as code, as notes, as workshops; creating Turkish-language resources for live
+> coding is part of that. We hold the door open for the next artist, just as those
+> before us held it open for us.
 
 ## What's here
 
@@ -126,3 +126,4 @@ version, keep it open too.
 ## Contact
 
 izmiralgorave@gmail.com
+
