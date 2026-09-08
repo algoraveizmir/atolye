@@ -119,7 +119,7 @@ dinleyebiliyor. Ortamda müzik çalın, görseller ona göre oynasın.
 ## Yeni atölye klasörü açarken
 
 ```
-atolyeler/2026-01-01-etkinlik-adi/
+atolyeler/YYYY-AA-GG-etkinlik-adi/
   README.md
 ```
 
