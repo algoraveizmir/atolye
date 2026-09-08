@@ -11,22 +11,22 @@ _Henüz yayımlanmış bir atölye kaydı yok. İlk atölyeden sonra buraya ekle
 
 ## Standart atölye akışımız
 
-Aşağıdaki akış her etkinlikte kullanabileceğimiz temel şablon. Etkinliğe göre süre ve
-sıra değişir; klasörünü açarken bu akışı kopyalayıp o etkinliğe uyarlayın.
+Her etkinlikte kullanabileceğimiz temel şablon. Klasörünü açarken bu akışı kopyalayıp
+o etkinliğe uyarlayın.
 
 ### Künye
 
 | | |
 |---|---|
-| Süre | 30–45 dakika |
+| Süre | 60 dakika (30 dk ses + 30 dk görsel) |
 | Katılımcı | Ön bilgi gerekmez |
-| Gereken | Kendi cihazı (dizüstü, tablet veya telefon) |
-| Araçlar | [Strudel](https://strudel.cc) (müzik) + [Hydra](https://hydra.ojack.xyz) (görsel) |
+| Gereken | Kendi cihazı — dizüstü, tablet veya telefon |
+| Araçlar | [Strudel](https://strudel.cc) (ses) + [Hydra](https://hydra.ojack.xyz) (görsel) |
 | Kurulum | Yok — ikisi de tarayıcıda çalışır |
 
 Strudel'in mobil uygulaması da var; masaüstünde doğrudan [strudel.cc](https://strudel.cc)
-açılıyor. Kurulum istememek bilinçli bir tercih: 30 dakikalık bir atölyede kurulumla
-uğraşmak zamanın yarısını yer.
+açılıyor. Kurulum istememek bilinçli bir tercih: kısa bir atölyede kurulumla uğraşmak
+zamanın yarısını yer.
 
 ### Nasıl anlatıyoruz
 
@@ -36,30 +36,53 @@ durdurulup yeniden başlatılmıyor — bir satır değişip çalıştırıldı�
 Katılımcı üç şey yapıyor: bir satır yazıyor, çalıştırıyor, duyduğunu değiştiriyor.
 Nota bilgisi ya da kod deneyimi gerekmiyor; ilk beş dakikada herkesin bir ritmi oluyor.
 
-### Akış — 45 dakika
+---
+
+## Akış — 60 dakika
+
+### Birinci yarı: Ses · Strudel (30 dk)
 
 | Süre | Bölüm | İçerik |
 |---|---|---|
 | 5 dk | **Giriş** | Canlı kodlama nedir, algorave nedir, neden ekranı gösteriyoruz |
-| 10 dk | **İlk ses** | Strudel'i açma, `sound("bd")`, örüntü kurma, hızlandırma |
-| 10 dk | **Ritim** | Katmanlama, öklidyen ritim, seyreltme |
-| 10 dk | **Görsel** | Hydra ile ilk şekil, sese tepki veren görsel |
-| 10 dk | **Serbest** | Katılımcılar kendi parçalarını kuruyor, isteyen paylaşıyor |
+| 5 dk | **İlk ses** | `strudel.cc`'yi açma, `sound("bd")`, çalıştırma, `hush` |
+| 8 dk | **Örüntü** | Boşlukla ayırma, `~` sessizlik, `fast` / `slow` |
+| 7 dk | **Ritim** | `stack` ile katmanlama, `euclid` ile öklidyen ritim |
+| 5 dk | **Ses işleme** | `lpf`, `room`, `gain` — sayıları değiştirip dinleme |
 
-### Akış — 30 dakika
+Bu bölümün sonunda herkesin çalan bir ritmi olmalı. Olmayan varsa devam etmeyin,
+o kişiye dönün — ikinci yarıya ses olmadan geçilmiyor.
 
-Süre kısalırsa **Hydra bölümünü tamamen çıkarın**, kalan zamanı ritim ve serbest bölüme
-dağıtın. İkisini birden yarım bırakmaktansa müziğe odaklanmak daha iyi sonuç veriyor.
+### İkinci yarı: Görsel · Hydra (30 dk)
+
+| Süre | Bölüm | İçerik |
+|---|---|---|
+| 5 dk | **Geçiş** | `hydra.ojack.xyz`'i açma, ikinci sekmede çalıştığını gösterme |
+| 7 dk | **İlk şekil** | `osc()`, `noise()`, `shape()` — tek satırla ekranı doldurma |
+| 8 dk | **Dönüştürme** | `.rotate()`, `.kaleid()`, `.color()` zincirleme |
+| 10 dk | **Sesle birleştirme** | Hydra'yı mikrofondan gelen sese tepki verecek şekilde bağlama; Strudel sekmesi çalarken görselin oynaması |
+
+Son bölüm atölyenin doruk noktası: katılımcı kendi yazdığı sesin kendi yazdığı görseli
+oynattığını görüyor.
+
+### Kapanış
+
+Kalan 2–3 dakikada bu deponun adresini gösterin: katılımcı evde
+[`../baslangic/`](../baslangic/) klasöründen devam edebilir.
+
+---
+
+## Akış — 30 dakika
+
+Süre yarıya inerse **Hydra'yı tamamen çıkarın**, sadece Strudel yapın. İkisini birden
+yarım bırakmaktansa sese odaklanmak çok daha iyi sonuç veriyor.
 
 | Süre | Bölüm |
 |---|---|
 | 5 dk | Giriş |
-| 10 dk | İlk ses |
-| 8 dk | Ritim |
-| 7 dk | Serbest |
-
-Materyal: [`../baslangic/`](../baslangic/) klasöründeki örnekler bu akışın yazılı hâli.
-Katılımcılar atölyeden sonra oradan devam edebilir.
+| 8 dk | İlk ses |
+| 10 dk | Örüntü ve ritim |
+| 7 dk | Serbest — katılımcılar kendi parçasını kuruyor |
 
 ---
 
@@ -70,6 +93,7 @@ Katılımcılar atölyeden sonra oradan devam edebilir.
 - [ ] Ses sistemi ve kablo
 - [ ] Yedek cihaz — cihazı olmayan katılımcı için
 - [ ] Kısa bağlantı ya da QR kod, `strudel.cc` hızlı açılsın
+- [ ] Hydra'nın mikrofon izni: tarayıcı soracak, önceden deneyin
 - [ ] Bu deponun adresi görünür bir yerde
 
 ---
@@ -85,7 +109,7 @@ atolyeler/2026-01-01-etkinlik-adi/
 
 - Etkinlik adı, tarih, mekân
 - Kaç kişi katıldı
-- Uygulanan akış (yukarıdakinden farklıysa)
+- Uygulanan akış — yukarıdakinden farklıysa
 - **Ne tuttu, ne tutmadı** — hangi bölüm uzun geldi, hangi soru tekrar tekrar geldi
 
 Son madde en değerlisi. Bir sonraki atölyeyi hazırlayan kişi — muhtemelen yine siz —
